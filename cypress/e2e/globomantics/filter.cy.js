@@ -5,7 +5,7 @@ import { filterPage } from "../../support/filterFeature/filterPage.cy";
 
 describe("Filter feature", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:1337/conference/sessions");
+    cy.visit('/');
   });
 
   for (let i = 0; i < filterConstants.dayArray.length; i++) {

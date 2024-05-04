@@ -7,7 +7,7 @@ class FilterPage {
 
   //Check if the new card created is displayed in the session list
   checkCreatedSession(title){
-    cy.visit("http://localhost:1337/conference/sessions")
+    cy.visit('/');
     cy.contains(filterConstants.allSesions).click();
     cy.scrollTo('bottom');
     cy.get(filterPageLocators.allSessionCardsTitle).last().should('contain', title);

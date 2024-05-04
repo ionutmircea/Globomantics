@@ -4,7 +4,7 @@ import { submitLocators } from "./submitLocators.cy";
 
 class SubmitPage {
 
-  //Check if submit a session button is redirected to Submit a session page
+  //Check if Submit a session button is redirected to Submit a session page
   checkRedirectOfSubmitSessionBtn() {
     cy.get(submitLocators.submitSessionBtn)
       .contains('Submit a Session!')

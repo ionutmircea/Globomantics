@@ -1,4 +1,5 @@
-Feature: duckduckgo.com
-  Scenario: visiting the frontpage
-    When I visit duckduckgo.com
-    Then I should see a search bar
+Feature: Submit a new session
+Scenario:Submit a session button redirects to Submit a session page
+     Given the user is on sessions page
+     When  the user clicks on Submit a session button
+     Then the user is redirected to the Submit a session page

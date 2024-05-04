@@ -11,8 +11,8 @@
   },
   
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": false,
-    "step_definitions": "cypress/e2e/cucumber/Tests"
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/Cucumber/tests"
   },
   "scripts": {
     "e2e:chrome": "cypress run --browser chrome" 
